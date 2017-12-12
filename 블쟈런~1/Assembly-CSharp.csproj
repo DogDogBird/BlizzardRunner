@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
+     <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
      <Compile Include="Assets\Script\AgeManager.cs" />
      <Compile Include="Assets\Script\ArrowManager.cs" />
      <Compile Include="Assets\Script\CameraController.cs" />
