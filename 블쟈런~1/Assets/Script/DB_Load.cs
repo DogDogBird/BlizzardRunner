@@ -69,13 +69,15 @@ public class DB_Load : MonoBehaviour {
 			return;
 		}
 	};
+	List<User> UserList = new List<User>();
+	List<Upgrade> UpList = new List<Upgrade>();
+	List<Character> ChList = new List<Character>();
 	// Use this for initialization
 	void Start () {
 		
 
 		List<Dictionary<string,object>> data = CSVReader.Read("User");
 		List<int> tempList = new List<int>();
-		List<User> UserList = new List<User>();
 		User user = new User ();
 		
 		for (var i = 0; i < data.Count; i++) 
@@ -91,7 +93,6 @@ public class DB_Load : MonoBehaviour {
 		}
 
 		List<Dictionary<string,object>> Updata = CSVReader.Read ("Upgrade");
-		List<Upgrade> UpList = new List<Upgrade>();
 		Upgrade Up = new Upgrade ();
 		for (var i = 0; i < data.Count; i++) 
 		{
@@ -100,7 +101,6 @@ public class DB_Load : MonoBehaviour {
 			UpList.Add (Up);
 		}
 		List<Dictionary<string,object>> Chdata = CSVReader.Read ("Character");
-		List<Character> ChList = new List<Character>();
 		Character CharSt = new Character();
 		for (var i = 0; i < Chdata.Count; i++) 
 		{
@@ -113,5 +113,20 @@ public class DB_Load : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	List<User> Get_UserList(){
+		return UserList;
+	}
+
+	List<Upgrade> Get_UpList(){
+		return UpList;
+	}
+	List<Character> Get_ChList(){
+		return ChList;
+	}
+
+	void setUserList()
+	{
 	}
 }

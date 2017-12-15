@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 23
+  controlID: 138
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 101
+  controlID: 66
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,14 +391,14 @@ MonoBehaviour:
     width: 878
     height: 466
   m_SceneLighting: 1
-  lastFramingTime: 69550.99889644493
+  lastFramingTime: 1004.2505621723953
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 49.245018, y: 4.5202513, z: 0}
+    m_Target: {x: -13.399128, y: -0.17444101, z: 0}
     speed: 2
-    m_Value: {x: 49.245018, y: 4.5202513, z: 0}
+    m_Value: {x: -13.399128, y: -0.17444101, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -425,9 +425,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 19.265324
+    m_Target: 3.1810048
     speed: 2
-    m_Value: 19.265324
+    m_Value: 3.1810048
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -528,18 +528,13 @@ MonoBehaviour:
     - {x: 478.80002, y: 243.40001}
     - {x: 478.80002, y: 243.40001}
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 4dd2011ea70bbf44ca871761938d598e,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 1107266268362674690, guid: 4dd2011ea70bbf44ca871761938d598e,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}
   blendTreeGraphGUI: {fileID: 0}
   m_AutoLiveLink: 1
-  m_LiveLinkFollowTransitions: 0
   m_MiniTool: 0
   m_SerializedLocked: 0
   m_CurrentEditor: 1
@@ -573,28 +568,28 @@ MonoBehaviour:
     height: 401
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f22a0000
-    m_LastClickedID: 10994
-    m_ExpandedIDs: 6afbffffe4fbffff00000000582b0000d22b0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9c40f4ff3ebaf4ff2afaffff1afcffff00000000262a0000482e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: "\uB8E8\uC2DC\uC6B0"
+      m_OriginalName: "\uB8E8\uC2DC\uC6B0"
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10946
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - GaeGaebi Runner
+  - CharacterShop
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -630,25 +625,25 @@ MonoBehaviour:
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
+    m_SoftLockControlStates: []
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Standard Assets/Effects/LightFlares/Flares
+    - Assets/prefab/Character
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Standard Assets/Effects/LightFlares/Flares
+  - Assets/prefab/Character
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\ass79\\OneDrive\\\uBB38\uC11C\\\uCE74\uCE74\uC624\uD1A1
-    \uBC1B\uC740 \uD30C\uC77C\\\uBE14\uC7C8\uB7F0~1"
+  m_LastProjectPath: "C:\\Users\\Y700\\Documents\\\uBE14\uC7C8\uB7F0~1"
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 121}
-    m_SelectedIDs: ec250000
-    m_LastClickedID: 9708
-    m_ExpandedIDs: 00000000ee24000068250000b8250000ce250000f6250000082600002a2600003e260000302700005227000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 9e270000
+    m_LastClickedID: 10142
+    m_ExpandedIDs: 0000000056260000f02600000227000026270000362700005c2700006e270000542800007228000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -676,7 +671,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee24000068250000b8250000ce250000f6250000082600002a2600003e2600003027000052270000
+    m_ExpandedIDs: 0000000056260000f02600000227000026270000362700005c2700006e2700005428000072280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -704,21 +699,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 9228000090270000aa2500000000000064260000b4eaffff
+    m_ExpandedInstanceIDs: 9228000090270000aa25000064260000b4eaffff2434000000000000a2050000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CharacterShop
+      m_OriginalName: CharacterShop
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 9970
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -728,9 +723,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 19}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 110
+  m_DirectoriesAreaWidth: 268
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -760,7 +755,7 @@ MonoBehaviour:
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: -160
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}

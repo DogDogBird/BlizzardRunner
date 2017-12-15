@@ -5,6 +5,8 @@ using UnityEngine;
 public class CharacterShop : MonoBehaviour {
 
 	// Use this for initialization
+	public DB_Load DB;
+
 	void Start () {
 		
 	}
